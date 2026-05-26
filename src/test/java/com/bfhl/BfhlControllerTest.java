@@ -46,7 +46,6 @@ class BfhlControllerTest {
         assertEquals(List.of("334", "4"), response.getEvenNumbers());
         assertEquals(List.of("A", "R"), response.getAlphabets());
         assertEquals(List.of("$"), response.getSpecialCharacters());
-        assertEquals(List.of("$"), response.getSepcialCharacters());
         assertEquals("339", response.getSum());
         assertEquals("Ra", response.getConcatString());
     }
