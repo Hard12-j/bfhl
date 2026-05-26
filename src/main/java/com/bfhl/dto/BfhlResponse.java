@@ -31,8 +31,9 @@ public class BfhlResponse {
     @JsonProperty("special_characters")
     private List<String> specialCharacters;
 
-    // @JsonProperty("sepcial_characters")
-    // private List<String> sepcialCharacters;
+     
+
+
 
     private String sum;
 

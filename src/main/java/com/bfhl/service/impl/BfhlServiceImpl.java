@@ -91,7 +91,6 @@ public class BfhlServiceImpl implements BfhlService {
                 .evenNumbers(evenNumbers)
                 .alphabets(alphabets)
                 .specialCharacters(specialCharacters)
-                .sepcialCharacters(specialCharacters) // To handle the typo in the prompt's example response
                 .sum(sum.toString())
                 .concatString(alternatingCaps.toString())
                 .build();
